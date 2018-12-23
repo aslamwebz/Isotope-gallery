@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Isotope Gallery</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="buttons.css">
+	<link rel="stylesheet" href="style.css">
+	<style>
+	
+	#isotope-gallery .container-fluid{
+		margin-top: 50px;
+		padding: 50px;
+	}
+
+	#isotope-gallery img{
+		height:auto;
+		width: 400px;
+		margin:10px;
+	}
+
+/*	.grid-item { width: 100%; }
+	.grid-item--width2 { width: 50%; }*/
+
+	</style>
+</head>
+<body>
+
+
+
+
+<div id="isotope-gallery">
+	<div class="container-fluid ">
+		<div class="buttons">
+			<div id="filters" class="button-group">
+				<button class="button button-pill button-action" data-filter="*">All</button>
+				<button class="button button-pill button-action" data-filter=".option1">Option 1</button>
+				<button class="button button-pill button-action" data-filter=".option2">Option 2</button>
+				<button class="button button-pill button-action" data-filter=".option3">Option 3</button>
+				<button class="button button-pill button-action" data-filter=".option4">Option 4</button>
+				<button class="button button-pill button-action" data-filter=".option5">Option 5</button>
+				<button class="button button-pill button-action" data-filter=".option6">Option 6</button>
+
+			</div>
+				<br><br>
+
+			<div class="grid">
+				<div class="row">
+				<div class="grid-item col-md-4 option1">
+					<img src="img/a.jpg" alt="">
+				</div>
+				<div class="grid-item col-md-4 option2">
+					<img src="img/b.jpg" alt="">
+				</div>
+				<div class="grid-item col-md-4 option3">
+					<img src="img/c.jpg" alt="">
+				</div>
+				<div class="grid-item col-md-4 option4">
+					<img src="img/d.jpg" alt="">
+				</div>
+				<div class="grid-item col-md-4 option5">
+					<img src="img/i.jpg" alt="">
+				</div>
+				<div class="grid-item col-md-4 option6">
+					<img src="img/f.png" alt="">
+				</div>
+				<div class="grid-item col-md-4 option1">
+					<img src="img/g.jpg" alt="">
+				</div>
+				<div class="grid-item col-md-4 option2">
+					<img src="img/h.jpg" alt="">
+				</div>
+				<div class="grid-item col-md-4 option3">
+					<img src="img/i.jpg" alt="">
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
